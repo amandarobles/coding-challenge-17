@@ -36,7 +36,7 @@ class SalesRep { //creating class
     }
 }
 //logging sales rep's clients and total spent for specific client
-constsalesRep1 = new SalesRep("Bob");
+const salesRep1 = new SalesRep("Bob");
 salesRep1.addClient(customer1);
 console.log(`SalesRep ${salesRep1.name} has client ${customer1.name} who spent $${salesRep1.getClientTotal("Alice").toFixed(2)}`);
 
